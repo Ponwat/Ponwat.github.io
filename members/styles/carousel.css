@@ -83,7 +83,7 @@ body {
     margin-top: 7rem;
   }
 }
-  .carousel-caption h1 span
+  .carousel-caption h1 .text-orange
   {
     font-size: 5rem; 
     color: coral;

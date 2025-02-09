@@ -91,3 +91,18 @@ display: none;
 }
 }
 
+@media screen and (max-width: 1200px) {
+    .text-dark-lg {
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .text-dark-lg {
+        color: #000;
+    }
+}
+
+.img {
+    
+}
