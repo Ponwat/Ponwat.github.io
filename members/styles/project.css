@@ -290,7 +290,7 @@ section.header {
     }
 
     #showcase-2 {
-        background-image: url("../project-page-assets/webpage-newfea.png"); /* ใส่ path ของรูปที่คุณต้องการใช้ */
+        background-image: url("../project-page-assets/quiz-webpage.png"); /* ใส่ path ของรูปที่คุณต้องการใช้ */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
