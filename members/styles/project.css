@@ -1,0 +1,398 @@
+hmitl .body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar .fs-4 {
+    color: #ffffff; 
+}
+
+.navbar .fs-4:hover {
+    color: #cccccc; 
+}
+
+.navbar-toggler {
+    border-color: #b5b5b5; 
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:hover {
+    border-color: #cccccc; 
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28204, 204, 204, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+section.header {
+    background: url("../project-page-assets/web-first-page.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 75px;
+    margin-bottom: 0;
+
+    height: 90vh;
+    position: relative;
+  }
+  
+  section.header .header-content .container {
+    height: 90vh;
+  }
+  
+  .head-content {
+    width: 600px;
+    color: #08005e;
+  }
+  
+  .head-content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .head-content h2 {
+    font-size: 30px;
+  }
+  
+  .head-content button {
+    background-color: #6986FA;
+    border: 4px solid #7EA9FF;
+    padding: 10px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  
+  
+  .btn-download {
+    border-radius: 30px;
+    border: 3px solid #f5f5f5;
+    background: #e75201;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .btn-download:hover {
+    background-color: #0056b3; /* สีพื้นหลังเมื่อ hover */
+    color: #ffffff; /* สีข้อความเมื่อ hover */
+    }
+
+
+    #showcase {
+        background-image: url("../project-page-assets/older.jpg");
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    #bar {
+        background-color: #060920;
+    }
+
+    #bar-2 {
+        background-color: #c2c2c5;
+    }
+
+    #bar h1 {
+        color: #6986FA;
+        margin: 100px 100px;
+    }
+
+    #bar-2 h1 {
+        color: #08005e;
+        margin: 100px 100px;
+    }
+
+    #showcase h1{
+        font-size: 60px;
+        margin-top: 300px;
+        text-align: center;
+        
+    }
+
+    section.add-medication {
+        background: url("../project-page-assets/add-medication.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-top: 0px;
+        margin-bottom: 0;
+        /* margin: 0px;
+        padding: 0px; */
+    
+        height: 90vh;
+        position: relative;
+    }
+
+    .add-medication {
+        height: 100vh; /* ให้ section นี้มีความสูงเต็มหน้าจอ */
+        display: flex; /* ใช้ Flexbox */
+        justify-content: center; /* จัดตำแหน่งกลางในแนวนอน */
+        align-items: flex-start; /* จัดให้ข้อความอยู่ข้างบนในแนวตั้ง */
+        padding-top: 50px; /* เพิ่ม padding ด้านบนเพื่อให้ข้อความไม่ติดขอบบน */
+    }
+    
+    .add-medication h1 {
+        font-size: 3rem; /* ปรับขนาดตัวอักษร */
+        color: #333; /* เปลี่ยนสีตัวอักษร */
+        text-align: center; /* จัดข้อความให้อยู่กลาง */
+        font-weight: bold; /* ทำให้ข้อความหนา */
+        margin: 0; /* กำจัด margin พื้นฐาน */
+    }
+
+    @media (max-width: 768px) {
+        .container.d-flex {
+            justify-content: center !important;
+            text-align: center !important;
+        }
+
+        .add-medication h1 {
+            font-size: 8vw; /* ปรับขนาดตัวอักษรให้ใหญ่ขึ้นสำหรับหน้าจอมือถือ */
+        }
+
+        #showcase .container {
+            text-align: center;
+        }
+    
+        #showcase h1, #showcase h2, #showcase p {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        #showcase h2{
+            font-size: 40px;
+        }
+
+        #showcase-2 .container {
+            text-align: center;
+        }
+
+        #showcase-2 h1, #showcase-2 h2 , #showcase-2 p{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            text-align: center;
+            }
+        }
+
+        #showcase-2 h1 {
+            font-size: 7em; /* ปรับขนาดของ h1 สำหรับหน้าจอเล็ก */
+            
+        }
+
+        #showcase-2 h2{
+            font-size: 40px;
+            
+        }
+
+        
+
+
+    
+    .text-end {
+        text-align: right;
+    }
+    
+    .text-info-emphasis {
+        color: #17a2b8;
+        opacity: 0.5;
+    }
+    
+    #showcase {
+        background-color: #f8f9fa;
+        padding: 50px 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .d-flex {
+        display: flex;
+    }
+    
+    .justify-content-center {
+        justify-content: center;
+    }
+    
+    .align-items-end {
+        align-items: flex-end;
+    }
+    
+    .flex-column {
+        flex-direction: column;
+    }
+
+    #showcase {
+        background-color: #f8f9fa;
+        padding: 50px 0;
+    }
+    
+    #showcase .container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: right;
+    }
+    
+    #showcase h1, #showcase h2, #showcase p {
+        max-width: 600px;
+        margin-left: auto;    
+    }
+    
+    .text-info-emphasis {
+        color: #272828;
+        opacity: 0.5;
+    }
+
+    #showcase p{
+        font-size: 20px;
+    }
+
+    #bar-3 {
+        background-color: #7EA9FF; 
+        
+    }
+
+    #bar-3 .container {
+        text-align: center; /* Center align text */
+    }
+    
+    #bar-3 h1 {
+        font-size: 40px;
+    }
+
+    #bar-3 .data-1 {
+        font-size: 40px;
+        margin: 200px 0;
+        color: #08005e; /* เปลี่ยนสีข้อความของ data-1 */
+    }
+    
+    #bar-3 .data-2 {
+        font-size: 40px;
+        margin: 70px 0;
+        color: #646464; /* เปลี่ยนสีข้อความของ data-2 */
+    }
+    
+    #bar-3 .data-3 {
+        font-size: 40px;
+        margin: 200px 0;
+        color: #232323; /* เปลี่ยนสีข้อความของ data-3 */
+    }
+
+    #showcase-2 {
+        background-image: url("../project-page-assets/webpage-newfea.png"); /* ใส่ path ของรูปที่คุณต้องการใช้ */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* ปรับขนาดตามที่คุณต้องการ */
+        color: white; /* เปลี่ยนสีข้อความเป็นสีขาวเพื่อให้มองเห็นได้ชัดเจน */
+        padding: 20px; /* เพิ่ม padding เพื่อให้เนื้อหามีพื้นที่ */
+    }
+
+    #showcase-2 .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: right;
+        height: 100%;
+    }
+    
+    #showcase-2 h1, #showcase-2 h2, #showcase-2 p {
+        margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            text-align: center;
+    }
+
+    #showcase-2 h1 {
+        font-size: 3em; /* ปรับขนาดของ h1 */
+        /* margin: 10px 0; */
+        color: #08005e;
+        text-align: center;
+        margin-top: 300px;
+    }
+
+    
+    #showcase-2 h2 {
+        font-size: 2em; /* ปรับขนาดของ h2 */
+        color: #08005e;
+        
+    }
+    
+    #showcase-2 p {
+        font-size: 1.2em; /* ปรับขนาดของ p */
+        /* margin: 10px 0; */
+        width: 50%;
+        word-wrap: break-word;
+        color: #484848;
+    }
+
+    .footer {
+        background-color: #202020;
+        color: rgb(151, 151, 151) !important;
+    }
+
+
+    #bar-4 {
+        background-color: #7EA9FF; 
+    }
+
+    #bar-4 .container {
+        text-align: center; /* Center align text */
+        margin: 100px 100px;
+    }
+    
+    /* #bar-4 h1 {
+        font-size: 50px;
+    } */
+
+    #bar-4 .data-1 {
+        font-size: 70px;
+        margin-top: 20px;
+        margin: 5px 0;
+        color: #dedede; /* เปลี่ยนสีข้อความของ data-1 */
+    }
+    
+    #bar-4 .data-2 {
+        /* font-size: 40px; */
+        margin: 5px 0;
+        color: #08005e; /* เปลี่ยนสีข้อความของ data-2 */
+    }
+    
+    #bar-4 .data-3 {
+        /* font-size: 40px; */
+        margin: 5px 0;
+        color: #08005e; /* เปลี่ยนสีข้อความของ data-3 */
+    }
+
+    #bar-4 .data-4 {
+        /* font-size: 40px; */
+        margin: 5px 0;
+        color: #08005e; /* เปลี่ยนสีข้อความของ data-3 */
+    }
+
+    #showcase-3 {
+        background-image: url("../project-page-assets/title.png"); /* ใส่ path ของรูปที่คุณต้องการใช้ */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* ปรับขนาดตามที่คุณต้องการ */
+        color: white; /* เปลี่ยนสีข้อความเป็นสีขาวเพื่อให้มองเห็นได้ชัดเจน */
+        padding: 20px; /* เพิ่ม padding เพื่อให้เนื้อหามีพื้นที่ */
+    }
+
+    
+
+    
+    
